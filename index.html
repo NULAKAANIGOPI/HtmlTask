@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Tasks</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5ead7;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #5c4520;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            background-color: #c9a227;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .buttons a:hover {
+            background-color: #a98216;
+        }
+
+        @media (max-width: 500px) {
+            .buttons {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My HTML Tasks</h1>
+
+        <div class="buttons">
+            <a href="ChessBoard/">Chess Board</a>
+            <a href="Form1/">Form 1</a>
+            <a href="Form2/">Form 2</a>
+            <a href="Form3/">Form 3</a>
+            <a href="Form4/">Form 4</a>
+            <a href="Imagetable/">Image Table</a>
+            <a href="Ludo/">Ludo</a>
+            <a href="Nestedlist!/">Nested List</a>
+            <a href="Nestedlist2/">Nested List 2</a>
+            <a href="Nestedlist3/">Nested List 3</a>
+            <a href="Webpage1/">Webpage 1</a>
+            <a href="Webpage2/">Webpage 2</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
